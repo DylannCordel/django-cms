@@ -152,6 +152,9 @@ plugins, as shown above with ``base.html content``.
     and the "values" dictionnary to use for this plugin. 
     The "values" depend on the "plugin_type". See the documentation of each 
     plugin type to see which parameters are required and available.
+    If you activated the "language_fallback" setting for this placeholder and
+    there is a fallback, default plugins won't be added. If there is no fallback
+    in any languages, default plugins will be added.
 
 ``plugin_modules``
     A dictionary of plugins and custom module names to group plugin in the
